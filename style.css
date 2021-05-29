@@ -1,0 +1,205 @@
+html{
+    scroll-behavior: smooth;
+    /* font-family: 'Roboto', sans-serif; */
+    /*  font-family: 'Lato', sans-serif; */
+    font-family: 'Domine', serif !important;
+         
+}
+.title h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: #eee;
+}
+.content p {
+    font-size: 16px;
+    color: white;
+    margin: 0;
+}
+section{
+    padding: 50px 0;
+}
+a{
+    text-decoration: none;
+}
+/* ------------------------------------------
+side bar area start
+------------------------------------------ */
+
+.side-bar{
+    background-color: #eee;
+
+}
+.side-bar .col-md-10 {
+    margin: auto;
+}
+.side-bar .image img {
+     width: 200px;
+    height: 210px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+.side-bar .card {
+    background-color: transparent;
+    border: none;
+    padding: 20px 0;
+    position: fixed;
+    }
+.side-bar .image{
+    margin: 0 auto;
+}
+.side-bar .card p {
+    text-align: center;
+}
+.side-bar .card  .card-title {
+    margin-bottom: .5rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.side-bar ul li {
+    list-style: none;
+    transition: .4s;
+}
+.side-bar ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    color: #8f42e6;   /* color:   Orenge Blue */
+}
+a:hover {
+    color: #8f42e6;
+}
+.side-bar ul li:hover{
+    margin-left: 5px;
+}
+/* ------------------------------------------
+side bar area end
+------------------------------------------ */
+/* ------------------------------------------
+Header area start
+------------------------------------------ */
+.header {
+    background: #2F4F4F;
+}
+
+.content{
+    background-color: darkslategray;
+}
+ul.social.row {
+    margin: 0;
+    padding: 0;
+}
+.social{
+    float: right;
+    display: flex;
+    margin: 0;
+}
+.social li {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #7a5e84;
+}
+.social li a {
+    text-decoration: none;
+}
+.social li a i{
+    width: 100%;
+    text-align: center;
+    line-height:30px; 
+}
+.social li a i {
+    color: white;
+    display: block;
+}
+
+.social li a i:nth-child(1){
+    transition: .4s;
+}
+.social li:hover a i:nth-child(1) {
+    margin-top: -30px;
+}
+.social li:hover a i.fa-facebook-f{
+    background-color: #3B5998;
+}
+.social li:hover a i.fa-instagram{
+    background-color: #E74659;
+}
+.social li:hover a i.fa-twitter{
+    background-color: #00ACEE;
+}
+.social li:hover a i.fa-apple-pay{
+    background-color: #333333;
+}
+.social li:hover a i.fa-github{
+    background-color: #333;
+}
+.social li:hover a i.fa-linkedin-in{
+    background-color: #0077B5;
+}
+/* ------------------------------------------
+Header area end
+------------------------------------------ */
+
+
+/* ------------------------------------------
+about area start
+------------------------------------------ */
+.contex{
+    margin: 20px 0;
+}
+.contex .text {
+    color: white;
+    margin-left: 20px;
+}
+
+.phone a, .mail a{
+    color: white;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f5c105c7;
+}
+/* ------------------------------------------
+about area end
+------------------------------------------ */
+
+/* ------------------------------------------
+education area start
+------------------------------------------ */
+.contex .text h4{
+    color: #f1d629;
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* ------------------------------------------
+education area end
+------------------------------------------ */
+
+/* ------------------------------------------
+skill area start
+------------------------------------------ */
+.card-skill{
+    background: transparent;
+    border: none;
+}
+/* ------------------------------------------
+skill area end
+------------------------------------------ */
+
+/* ------------------------------------------
+education area start
+------------------------------------------ */
+
+/* ------------------------------------------
+education area end
+------------------------------------------ */
+
+
+
